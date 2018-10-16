@@ -82,6 +82,6 @@ class MusicLibraryController
     list_songs
     input = gets.strip.to_i
     sorted = Song.all.sort_by { |song| song.name }
-    song = Song.all[input]
+    p song = Song.all[input]
   end
 end

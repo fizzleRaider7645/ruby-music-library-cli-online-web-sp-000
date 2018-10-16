@@ -21,7 +21,7 @@ class MusicLibraryController
     puts "What would you like to do?"
     input = gets.strip.downcase
     while (input = gets.strip.downcase) != "exit"
-      case
+      case input
       when input == "list songs"
         list_songs
       when input == "list artists"

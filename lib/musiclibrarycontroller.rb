@@ -81,8 +81,8 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     list_songs
     input = gets.strip.to_i
-    if p input > 0 && input <= Song.all.length - 1
-      
+    if input > 0 && input <= Song.all.length - 1
+      "Playing Larry Csonka by Action Bronson"
     else
       return
     end

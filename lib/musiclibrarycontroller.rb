@@ -91,6 +91,6 @@ private
 def valid?(input)
   sorted = Song.all.sort_by { |song| song.name }
   binding.pry
-  return true if input > 0 && input < sorted.length - 1
+  return true if input > 0 && input =< sorted.length - 1
   return false
 end

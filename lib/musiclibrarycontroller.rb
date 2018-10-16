@@ -78,10 +78,7 @@ class MusicLibraryController
   def play_song
     puts "Which song number would you like to play?"
     input = gets.strip.to_i - 1
-    list_songs.each_with_index do |song, index|
-      p index
-      p song
-      # binding.pry
+    list_songs
     end
   end
 end

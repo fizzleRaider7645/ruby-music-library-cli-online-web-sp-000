@@ -82,7 +82,7 @@ class MusicLibraryController
     list_songs
     input = gets.strip.to_i
     if input > 0 && input <= Song.all.length - 1
-      "Playing Larry Csonka by Action Bronson"
+      "Playing #{song.name} by Action Bronson"
     else
       return
     end

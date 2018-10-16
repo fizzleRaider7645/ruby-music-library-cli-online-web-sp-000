@@ -84,3 +84,5 @@ class MusicLibraryController
 end
 
 private
+
+def valid

@@ -81,7 +81,6 @@ class MusicLibraryController
     list_songs
     input = gets.strip.to_i - 1
     if  p valid?(input)
-      # sorted = Song.all.sort_by { |song| song.name }[input - 1]
       Song.all[input - 1]
     else
       return

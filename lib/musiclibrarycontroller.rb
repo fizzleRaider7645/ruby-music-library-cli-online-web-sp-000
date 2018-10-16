@@ -51,17 +51,17 @@ class MusicLibraryController
     puts "What would you like to do?"
     while (input = gets.strip.downcase) != "exit"
       case
-      when user_input == "list songs"
+      when input == "list songs"
         list_songs
-      when user_input == "list artists"
+      when input == "list artists"
         list_artists
-      when user_input == "list genres"
+      when input == "list genres"
         list_genres
-      when user_input == "list artist"
+      when input == "list artist"
         list_songs_by_artist
-      when user_input == "list genre"
+      when input == "list genre"
         list_songs_by_genre
-      when user_input == "play song"
+      when input == "play song"
         play_song
       end
     end

@@ -83,6 +83,5 @@ class MusicLibraryController
     input = gets.strip.to_i - 1
       sorted = Song.all.sort_by { |song| song.name }
       song = Song.all[input - 1]
-    puts "Playing #{song.artist.name} - #{song.name} - #{song.genre.name}"
   end
 end

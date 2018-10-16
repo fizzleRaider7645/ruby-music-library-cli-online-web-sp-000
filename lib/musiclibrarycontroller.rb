@@ -81,8 +81,9 @@ class MusicLibraryController
     input = gets.strip.to_i - 1
     list_songs
     if truish = valid?(input)
-    sorted = Song.all.sort_by { |song| song.name }[input - 1]
-    binding.pry
+      sorted = Song.all.sort_by { |song| song.name }[input - 1]
+      binding.pry
+    else
     end
   end
 end

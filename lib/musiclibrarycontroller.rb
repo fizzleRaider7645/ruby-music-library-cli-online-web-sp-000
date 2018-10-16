@@ -81,6 +81,8 @@ class MusicLibraryController
     list_songs
     input = gets.strip.to_i - 1
     if valid?(input)
+      song = Song.all[gets.to_i - 1]
+    puts "Playing #{song.artist.name} - #{song.name} - #{song.genre.name}"
     else
       return
     end

@@ -56,11 +56,11 @@ class MusicLibraryController
         list_artists
       elsif user_input == "list genres"
         list_genres
-      when user_input == "list artist"
+      elsif user_input == "list artist"
         list_songs_by_artist
-      when user_input == "list genre"
+      elsif user_input == "list genre"
         list_songs_by_genre
-      when user_input == "play song"
+      elsif user_input == "play song"
         play_song
       end
     end

@@ -80,11 +80,12 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     input = gets.strip.to_i - 1
     list_songs
+    sorted = Song.all.sort_by { |song| song.name }
   end
 end
 
 private
 
 def valid?(input)
-  
+  sorted = Song.all.sort_by { |song| song.name }
 end

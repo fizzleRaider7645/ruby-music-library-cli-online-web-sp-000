@@ -90,11 +90,3 @@ class MusicLibraryController
     end
   end
 end
-
-# private
-
-def valid?(input)
-  sorted = Song.all.sort_by { |song| song.name }
-  return true if input > 0 && input <= sorted.length - 1
-  return false
-end

@@ -81,7 +81,6 @@ class MusicLibraryController
     list_songs
     input = gets.strip.to_i - 1
     if valid?(input)
-      Song.all[input - 1]
     else
       return
     end

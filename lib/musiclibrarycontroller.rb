@@ -85,4 +85,5 @@ end
 
 private
 
-def valid
+def valid?
+  ed

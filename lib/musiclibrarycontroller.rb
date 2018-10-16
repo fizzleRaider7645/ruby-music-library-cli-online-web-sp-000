@@ -25,7 +25,6 @@ class MusicLibraryController
       
       when input == 'list songs'
         list_songs
-      end
       when input ==
       when input ==
       when input ==

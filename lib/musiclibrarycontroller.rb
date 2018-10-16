@@ -1,4 +1,5 @@
 require 'pry'
+require_relative 'song'
 class MusicLibraryController
   attr_accessor :importer
   

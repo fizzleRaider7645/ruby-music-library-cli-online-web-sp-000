@@ -81,6 +81,7 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     list_songs
     input = gets.strip.to_i
+    if 
     song = Song.all[input].name
   end
 end

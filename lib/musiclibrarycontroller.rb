@@ -81,8 +81,6 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     list_songs
     input = gets.strip.to_i
-    sorted = Song.all.sort_by { |song| song.name }
-    sorted[input].name
     song = Song.all[input].name
   end
 end

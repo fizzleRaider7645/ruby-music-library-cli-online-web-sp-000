@@ -84,6 +84,7 @@ class MusicLibraryController
       sorted = Song.all.sort_by { |song| song.name }[input - 1]
       binding.pry
     else
+      return
     end
   end
 end

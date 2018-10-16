@@ -34,6 +34,7 @@ class MusicLibraryController
       when input == 'list genre'
         list_songs_by_genre
       when input == 'play song'
+        play_song
     end
   end
   

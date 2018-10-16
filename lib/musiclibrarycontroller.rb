@@ -85,6 +85,6 @@ end
 
 private
 
-def valid?
+def valid?(input)
   
 end

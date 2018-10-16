@@ -86,4 +86,5 @@ end
 private
 
 def valid?
-  ed
+  
+end

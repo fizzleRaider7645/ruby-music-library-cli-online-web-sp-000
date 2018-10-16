@@ -84,4 +84,5 @@ class MusicLibraryController
     if input > 0 && input <= Song.all.length - 1
     song = Song.all[input].name
   end
+  end
 end

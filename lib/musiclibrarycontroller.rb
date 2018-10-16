@@ -83,6 +83,5 @@ class MusicLibraryController
     input = gets.strip.to_i
       song = Song.all[input]
       "Playing #{song.name} by #{song.artist.name}"
-    end
   end
 end

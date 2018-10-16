@@ -88,4 +88,5 @@ private
 
 def valid?(input)
   sorted = Song.all.sort_by { |song| song.name }
+  binding.pry
 end

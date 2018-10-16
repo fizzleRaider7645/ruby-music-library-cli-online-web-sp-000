@@ -80,7 +80,7 @@ class MusicLibraryController
     input = gets.strip.to_i - 1
     list_songs.each_with_index do |song, index|
       p index
-      binding.pry
+      # binding.pry
     end
   end
 end

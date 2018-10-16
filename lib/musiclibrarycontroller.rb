@@ -52,9 +52,9 @@ class MusicLibraryController
     while (user_input = gets.chomp.downcase) != "exit"
       if user_input == "list songs"
         list_songs
-      when user_input == "list artists"
+      elsif user_input == "list artists"
         list_artists
-      when user_input == "list genres"
+      elsif user_input == "list genres"
         list_genres
       when user_input == "list artist"
         list_songs_by_artist

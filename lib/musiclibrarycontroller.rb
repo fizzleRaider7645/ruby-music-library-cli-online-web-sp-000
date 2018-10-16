@@ -1,6 +1,5 @@
 require 'pry'
-require_relative 'song'
-require_relative './config/envirmoent'
+
 class MusicLibraryController
   attr_accessor :importer
   
